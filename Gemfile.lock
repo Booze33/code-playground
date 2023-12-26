@@ -151,6 +151,7 @@ GEM
     omniauth-oauth2 (1.8.0)
       oauth2 (>= 1.4, < 3)
       omniauth (~> 2.0)
+    openai (0.3.0)
     orm_adapter (0.5.0)
     pg (1.5.4-x64-mingw-ucrt)
     psych (5.1.2)
@@ -229,6 +230,7 @@ DEPENDENCIES
   devise_token_auth
   omniauth-github
   omniauth-google-oauth2
+  openai
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors

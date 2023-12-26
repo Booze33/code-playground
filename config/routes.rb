@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_codes
   mount_devise_token_auth_for 'User', at: 'auth', controllers: {
     sessions: 'devise_token_auth/sessions'
   }
